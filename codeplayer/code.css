@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+
+#menuBar {
+    width: 100%;
+    height: 40px;
+    background-color: lightgrey;
+    border-bottom: 1px solid grey;
+}
+
+#logo {
+    font-family: Shadows Into Light, Arial;
+    padding: 2px 0 0 20px;
+    font-weight: bold;
+    font-size: 120%;
+    float: left;
+}
+
+#buttonDiv {
+    float: right;
+    padding: 5px 10px 0 0;
+}
+
+#runButton {
+    font-size: 120%;
+}
+
+#toggles {
+    width: 250px;
+    margin:0 auto;
+    list-style: none;
+    border: 1px solid grey;
+    /*padding: 3px;*/
+    border-radius: 3px;
+    height: 27px;
+    padding: 0;
+    position: relative;
+    top: 5px;
+}
+#toggles li {
+    float: left;
+    border-right: 1px solid grey;
+    height: 18px;
+    padding: 5px 7px;
+
+}
+
+#toggles li:last-child {
+    border-right:none;
+}
+
+.clear {
+    clear:both;
+}
+
+.codeContainer {
+    background-color: blue;
+    height: 100%;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.codeContainer textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-right: 1px solid grey;
+    font-family: monotype, sans serif;
+    font-size: 90%;
+    padding: 5px;
+    box-sizing: border-box; 
+    /*box-sizing: border-box;  so text boxes won't overlap*/
+
+}
+
+.codeLabel {
+    position:absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#CSSContainer, #JSContainer {
+    display: none;
+}
+
+iframe {
+    height: 100%;
+    position:relative;
+    left:20px;
+    border:none;
+}
+
+.selected {
+    background-color: grey;
+}
+
